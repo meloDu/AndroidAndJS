@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyHtml.html</title>
+    <script type="text/javascript">
+     function showToast(toast) {
+         javascript:control.showToast(toast);
+     }
+     function log(msg) {
+        consolse.log(msg);
+     }
+
+     function goThere(){
+        javascript:control.goThere("经度","纬度");
+     }
+
+    </script>
+</head>
+<body>
+<input type="button" value="toast" onclick="showToast('js调用android')">
+<input type="button" value="js调用android" onclick="goThere()">
+</body>
+</html>
